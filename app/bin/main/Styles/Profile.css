@@ -1,0 +1,73 @@
+.label{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 15px;
+    -fx-text-fill: black; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+.labeltitle{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 30px;
+    -fx-text-fill: black; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+
+
+.stackpane {
+    -fx-background-color: rgba(5, 0, 31, 0.8); /* Warna latar belakang putih dengan transparansi */
+    -fx-padding: 20px; /* Padding untuk membuat jarak di sekitar elemen dalam StackPane */
+    -fx-background-radius: 10px; /* Membuat sudut-sudut StackPane menjadi tumpul */
+    -fx-border-color: black; /* Warna border */
+    -fx-border-width: 2px; /* Lebar border */
+    -fx-border-radius: 10px; /* Membuat sudut-sudut border menjadi tumpul */
+}
+/* UserInfo.css */
+.vbox-background {
+    /* -fx-background-image: url('/images/background.jpg'); Ganti dengan jalur gambar Anda */
+    /* -fx-background-size: cover; Sesuaikan ukuran gambar dengan ukuran VBox */
+    /* -fx-background-repeat: no-repeat; Jangan ulangi gambar */
+    -fx-background-position: center; /* Posisikan gambar di tengah */
+    -fx-padding: 20px; /* Padding di sekitar elemen dalam VBox */
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan transparansi */
+    -fx-background-radius: 10px; /* Membuat sudut-sudut VBox menjadi tumpul */
+    -fx-border-color: black; /* Warna border */
+    -fx-border-width: 2px; /* Lebar border */
+    -fx-border-radius: 10px; /* Membuat sudut-sudut border menjadi tumpul */
+}
+
+.infobox {
+    -fx-background-color: white;
+    -fx-padding: 30px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-max-width: 597px;
+    -fx-max-height: 508px;
+    -fx-background-radius: 20;
+    /* -fx-max-height: 152px; */
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    -fx-pref-height: 508px;
+    /* -fx-spacing: 10px; */
+}
+.menu-box {
+    -fx-background-color: #070F2B;
+    -fx-max-width: 214;
+    -fx-border-radius: 15px;
+}
+.menu-button {
+    -fx-background-color: #070F2B;
+    -fx-font-size: 17px;
+    -fx-cursor: hand;
+    -fx-border-radius: 15px;
+    -fx-border-color: #070F2B;
+    -fx-padding: 10px;
+    -fx-text-fill: #F0EBE3;
+    -fx-font-weight: bold;
+}
+.custom-image {
+    -fx-fit-width: 946px;
+    -fx-fit-height: 210px;
+    -fx-preserve-ratio: true;
+}
+
+

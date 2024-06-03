@@ -1,0 +1,28 @@
+.label{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 15px;
+    -fx-text-fill: black; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+.menu-box {
+    -fx-background-color: #070F2B;
+    -fx-max-width: 214;
+    -fx-border-radius: 15px;
+}
+.grid-pane-background {
+    -fx-max-width: 200;
+    -fx-max-height: 100;
+    -fx-background-image: url('/images/penguin.jpg');
+    -fx-background-size: cover; /* Ukuran background menyesuaikan dengan ukuran GridPane */
+    -fx-background-repeat: no-repeat; /* Tidak mengulang gambar */
+}
+.support-box {
+    -fx-pref-width: 400px;    /* Mengatur lebar preferensi */
+    -fx-pref-height: 200px;   /* Mengatur tinggi preferensi */
+    -fx-font-size: 16px;      /* Mengatur ukuran teks */
+    -fx-padding: 10px;        /* Mengatur padding di dalam TextArea */
+    -fx-background-color: white; /* Mengatur warna latar belakang jika diinginkan */
+    -fx-border-color: white;   /* Mengatur warna border */
+    -fx-border-width: 1px;    /* Mengatur lebar border */
+}
+

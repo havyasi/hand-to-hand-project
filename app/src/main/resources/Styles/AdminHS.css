@@ -1,0 +1,121 @@
+.adminame{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 30px;
+    -fx-text-fill: white; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+.events{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-text-fill: white; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+.setinfo{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 15px;
+    -fx-text-fill: #070F2B; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+.admingreet{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-text-fill: white; /* Warna latar belakang */ 
+    -fx-font-weight: normal;
+}
+.rectanglekiri{
+    -fx-background-color: #070F2B; /* Warna latar belakang */
+}
+.rectanglekanan{
+    -fx-background-color: white; /* Warna latar belakang */
+
+}
+.textfieldsetinfo{
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #070F2B;
+    -fx-pref-width: 300px;
+    -fx-max-height: 35px;
+    -fx-text-fill: black;
+    -fx-padding: 7.5px;
+}
+
+.buttongo{
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #070F2B;
+    -fx-font-size: 12px;
+    -fx-background-color: white;
+    -fx-max-width: 300px;
+    -fx-max-height: 32px;
+    /* -fx-stroke: white; */
+    -fx-stroke-width: 2;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-border-color:  #070F2B;
+    -fx-border-width : 2px;
+    /* -fx-background-radius: 15px; */  
+}
+.buttongo:hover{
+    -fx-font-family: "Poppins";
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-color: #070F2B;
+    -fx-max-width: 300px;
+    -fx-max-height: 29px;
+    /* -fx-stroke: white; */
+    -fx-stroke-width: 2;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-border-color:  #070F2B;
+    -fx-border-width : 2px;
+    -fx-background-radius: 15px;  
+}
+.buttonback{
+    -fx-font-family: "Poppins";
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-color: #070F2B;
+    -fx-max-width: 300px;
+    -fx-max-height: 32px;
+    /* -fx-stroke: white; */
+    -fx-stroke-width: 2;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-border-color:  white;
+    -fx-border-width : 2px;
+    /* -fx-background-radius: 15px; */  
+}
+.buttonback:hover{
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #070F2B;
+    -fx-font-size: 12px;
+    -fx-background-color: white;
+    -fx-max-width: 300px;
+    -fx-max-height: 32px;
+    /* -fx-stroke: white; */
+    -fx-stroke-width: 2;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-border-color:  white;
+    -fx-border-width : 2px;
+    -fx-background-radius: 15px;  
+}
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
+.menu-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 10;
+}
+
+
+
+

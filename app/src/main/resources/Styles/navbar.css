@@ -1,0 +1,31 @@
+.navbar > Button {
+  -fx-pref-width: 120px;
+  -fx-padding: 15px 0px;
+  -fx-background-color: #070F2B;
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+  -fx-font-size: 17px;
+  -fx-border-color: #070F2B;
+  -fx-border-width: 0.2px 0px;
+}
+
+.navbar > Button:hover {
+  -fx-cursor: hand;
+  -fx-background-color: white;
+  -fx-text-fill: rgb(8, 0, 61);
+}
+
+.navbar > .button-logout {
+  -fx-background-color: white;
+  -fx-text-fill: rgb(15, 0, 61);
+}
+
+.navbar > .button-logout:hover {
+  -fx-background-color: #070F2B;
+  -fx-text-fill: rgb(255, 255, 255);
+}
+
+.label {
+  -fx-font-size: 16px; /* Ubah ukuran font sesuai yang Anda inginkan */
+}
+

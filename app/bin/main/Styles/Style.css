@@ -1,0 +1,477 @@
+.rectangle {
+    -fx-background-color: #FEFBF6; /* Warna latar belakang */
+}
+
+.rectangleright {
+    -fx-background-color: #070F2B; /* Warna latar belakang */
+
+}
+
+.label{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 35px;
+    -fx-fill: #070F2B; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+    
+}
+
+.events{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-fill: white; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+    
+}
+
+.adminame{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 30px;
+    -fx-fill: white; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+
+.admingreet{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-fill: white; /* Warna latar belakang */ 
+    /* -fx-font-weight: bold; */
+}
+
+.myprofile{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 19px;
+    -fx-fill: #535356; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+
+.random{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 14px;
+    -fx-text-fill: #F0EBE3; /* Warna latar belakang */ 
+}
+
+.random-info{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 25px;
+    -fx-text-fill: #F0EBE3; /* Warna latar belakang */ 
+}
+
+.labelup{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 17px;
+    -fx-fill: #070F2B; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+
+.labelb{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 35px;
+    -fx-text-fill: #F0EBE3; /* Warna latar belakang */ 
+    -fx-font-weight: bold;
+}
+
+.menuname{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 25px;
+    -fx-text-fill: black; 
+    -fx-font-weight: bold;
+}
+.hiuser{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 37px;
+    -fx-text-fill: black; 
+    -fx-font-weight: bold;
+}
+
+.greetuser{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 19px;
+    -fx-text-fill: black; 
+    -fx-font-weight: normal;
+}
+
+.tittleinfo{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 12px;
+    -fx-text-fill: black; 
+    -fx-font-weight: bold;
+}
+
+.description{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 8px;
+    -fx-text-fill: black; 
+    -fx-font-weight: normal;
+}
+
+.lokasiwaktu{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 7px;
+    -fx-text-fill: black; 
+    -fx-font-weight: bold;
+}
+
+.buttonsignup{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 20px;
+    -fx-text-fill: #F0EBE3;
+    -fx-background-color: #070F2B;
+    -fx-min-width: 150px;
+    -fx-min-height: 50px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 15px;
+}
+.buttonsignup:hover{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 20px;
+    -fx-text-fill: #F0EBE3;
+    -fx-background-color: #0e39d5;
+    -fx-min-width: 150px;
+    -fx-min-height: 50px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 15px;
+}
+
+.buttongo{
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #F0EBE3;
+    -fx-font-size: 20px;
+    -fx-background-color: #070F2B;
+    -fx-min-width: 170px;
+    -fx-min-height: 50px;
+    /* -fx-stroke: white; */
+    -fx-stroke-width: 2;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20px;
+    -fx-border-color:  #F0EBE3;
+    -fx-border-width : 2px;
+    /* -fx-background-radius: 15px; */
+    
+}
+
+.buttongo:hover{
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #F0EBE3;
+    -fx-background-color: #0e39d5;
+    -fx-min-width: 170px;
+    -fx-min-height: 50px;
+    /* -fx-stroke: white; */
+    -fx-stroke-width: 2;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color:  #F0EBE3;
+    /* -fx-background-radius: 15px; */
+    
+}
+
+.buttonjoin:hover{
+    -fx-font-family: "Poppins";
+    -fx-text-fill: black;
+    -fx-background-color: rgb(73, 73, 73);
+    -fx-min-width: 36px;
+    -fx-min-height: 13px;
+    /* -fx-stroke: white; */
+    -fx-stroke-width: 0.5;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color:  black;
+    /* -fx-background-radius: 15px; */
+    
+}
+
+
+.textfield{
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #070F2B;
+}
+
+.textfield-info{
+    -fx-background-color: #070F2B;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-color: white;
+    -fx-max-width: 271px;
+    -fx-max-height: 36px;
+    -fx-text-fill: white;
+    -fx-padding: 7.5px;
+}
+
+.textfield-set-infoevent{
+    -fx-background-color: black;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-color: white;
+    -fx-max-width: 527px;
+    -fx-max-height: 573px;
+    -fx-text-fill: black;
+    -fx-padding: 7.5px;
+}
+
+.label-set-infoevent{
+    -fx-font-family: "Poppins";
+    -fx-font-size: 15px;
+    -fx-fill: black; /* Warna latar belakang */ 
+    -fx-font-weight: bold; 
+}
+
+.buttonsubmit{
+    -fx-background-color: #070F2B;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-color: white;
+    -fx-max-width: 130px;
+    -fx-max-height: 30px;
+    -fx-text-fill: white;
+}
+
+.buttonsubmit:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #070F2B;
+}
+
+.setyourprofile{
+    -fx-background-color: #070F2B;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-color: white;
+}
+
+/* styles.css */
+/* styles.css */
+.menu-box {
+    -fx-background-color: #070F2B;
+    -fx-pref-width: 214;
+    -fx-border-radius: 15px;
+}
+
+.menu-setinfo-box {
+    -fx-background-color: black;
+    -fx-max-width: 530px;
+    -fx-max-height: 575px;
+    -fx-border-radius: 30px;
+}
+
+.set-profile-box {
+    -fx-background-color: #070F2B;
+    -fx-pref-width: 597;
+    -fx-border-radius: 15px;
+}
+
+.menu-right-box {
+    /* -fx-background-color: #070F2B; */
+    -fx-pref-width: 697;
+    -fx-border-radius: 15px;
+}
+
+.menu-button {
+    -fx-background-color: #070F2B;
+    -fx-font-size: 17px;
+    -fx-cursor: hand;
+    -fx-border-radius: 15px;
+    -fx-border-color: #070F2B;
+    -fx-padding: 10px;
+    -fx-text-fill: #F0EBE3;
+    -fx-font-weight: bold;
+}
+
+.menu-button:selected {
+    -fx-background-color: #AAAAAA;
+}
+
+.content-box {
+    -fx-background-color: #89A9FF;
+    -fx-padding: 20px;
+    /* -fx-border-color: #89A9FF; */
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 5);
+    -fx-background-radius: 20;
+    -fx-background-color: rgba(169, 169, 222, 0.8);
+    /* -fx-border-color: black;
+    -fx-border-width: 1px 0 0 0; /* 1 pixel solid black border, only bottom */
+    /* -fx-padding: 10px; */ 
+}
+    
+
+
+.content-bg- {
+    /* menuBox.setPrefWidth(200);  // Lebar preferensi
+        menuBox.setPrefHeight(400); */
+    /* -fx-pref-width: 199; */
+    /* -fx-pref-height: 244; */
+    -fx-background-color: #d5d5d5;
+    -fx-padding: 20px;
+    /* -fx-border-color: #89A9FF; */
+    -fx-border-width: 1px;
+    /* -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 5); */
+    -fx-background-radius: 15;
+    -fx-background-color: rgba(208, 208, 209, 0.8);
+    /* Style.css */
+    -fx-max-width: 150px; /* Lebar maksimum */
+    -fx-max-height: 300px; /* Tinggi maksimum */
+    -fx-padding: 10px;
+
+
+}
+
+.profile-bg- {
+    /* menuBox.setPrefWidth(200);  // Lebar preferensi
+        menuBox.setPrefHeight(400); */
+    /* -fx-pref-width: 199; */
+    /* -fx-pref-height: 244; */
+    -fx-background-color: #070F2B;
+    -fx-padding: 20px;
+    /* -fx-border-color: #89A9FF; */
+    -fx-border-width: 1px;
+    /* -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 5); */
+    -fx-background-radius: 15;
+    /* -fx-background-color: rgba(208, 208, 209, 0.8); */
+    /* Style.css */
+    -fx-max-width: 597px; /* Lebar maksimum */
+    -fx-max-height: 508px; /* Tinggi maksimum */
+    -fx-padding: 10px;
+
+
+}
+
+.floating-box {
+    -fx-background-color: white;
+    -fx-padding: 0px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-pref-width: 500px;
+    -fx-background-radius: 20;
+    /* -fx-max-height: 152px; */
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    -fx-pref-height: 152px;
+    /* -fx-spacing: 10px; */
+}
+
+.bg-info-box {
+    -fx-background-color: #070F2B;
+    -fx-padding: 40px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-max-width: 597px;
+    -fx-max-height: 508px;
+    -fx-background-radius: 20;
+    /* -fx-max-height: 152px; */
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    -fx-pref-height: 508px;
+    /* -fx-spacing: 10px; */
+}
+
+.bg-admmin-box {
+    -fx-background-color: #070F2B;
+    -fx-padding: 40px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-max-width: 530px;
+    -fx-max-height: 575px;
+    -fx-background-radius: 20;
+    /* -fx-max-height: 152px; */
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    -fx-pref-height: 508px;
+    /* -fx-spacing: 10px; */
+}
+
+.set-bg- {
+    -fx-background-color: white;
+    -fx-padding: 0px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-pref-width: 500px;
+    -fx-background-radius: 20;
+    /* -fx-max-height: 152px; */
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    -fx-pref-height: 152px;
+    /* -fx-spacing: 10px; */
+}
+
+.image-bg- {
+    -fx-background-color: white;
+    -fx-padding: 0px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-pref-width: 199px;
+    -fx-background-radius: 15;
+    -fx-max-height: 244px;
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    /* -fx-pref-height: 152px; */
+    /* -fx-spacing: 10px; */
+}
+
+.set-profile-box {
+    -fx-background-color: white;
+    -fx-padding: 0px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 15;
+    /* -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5); */
+    -fx-pref-width: 597px;
+    -fx-background-radius: 15;
+    -fx-max-height: 508px;
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    /* -fx-pref-height: 152px; */
+    /* -fx-spacing: 10px; */
+}
+
+.bg- {
+    -fx-background-color: #070F2B;
+    -fx-padding: 15px;
+    /* -fx-border-color: #89A9FF; */
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 5);
+    -fx-background-radius: 15;
+    /* -fx-background-color: rgba(169, 169, 222, 0.8); */
+}
+
+.support-box {
+    -fx-background-color: #070F2B;
+    -fx-padding: 40px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-max-width: 7;
+    -fx-max-height: 7;
+    -fx-background-radius: 20;
+    /* -fx-max-height: 152px; */
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    -fx-pref-height: 508px;
+    /* -fx-spacing: 10px; */
+}
+
+.satu-support-box {
+    -fx-background-color: #070F2B;
+    -fx-padding: 40px;
+    -fx-border-color: white;
+    -fx-border-width: 0px;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-max-width: 100px;
+    -fx-max-height: 100px;
+    -fx-background-radius: 20;
+    /* -fx-max-height: 152px; */
+    /* -fx-background-color: rgba(255, 255, 255, 0.8); */
+    -fx-pref-height: 508px;
+    /* -fx-spacing: 10px; */
+}
+
+
+
